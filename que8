@@ -1,0 +1,25 @@
+programa
+{
+	
+inteiro n1, n2, n3
+	funcao inicio()
+	{
+		escreva("me fale 3 num  ber s ")
+		leia(n1,n2,n3)
+
+		se(n1+n2 >= n3 e n1+n3 >= n2 e n2+n3 >= n1){
+			escreva("é um triangle ")
+
+			se(n1 == n2 e n2 == n3){
+				escreva("ele é equilatero")
+			}
+			senao se(n1 != n2 e n2 != n3){
+				escreva("ele é escaleno")
+			}senao{
+				escreva("ele é isosceles")
+			}
+		}senao{
+			escreva("ele n é triangle -triangulo do mr.maker - 2025")
+		}
+	}
+}

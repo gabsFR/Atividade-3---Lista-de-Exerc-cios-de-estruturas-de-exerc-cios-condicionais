@@ -1,0 +1,16 @@
+programa
+{
+	inteiro 
+temp
+	funcao inicio()
+	{
+		escreva("me fale uma temperatura ")
+		leia(temp)
+
+		se(temp > 0){
+			escreva("essa temperatura é positiva")
+		}senao{
+			escreva("essa temperatua é negativa")
+		}
+	}
+}

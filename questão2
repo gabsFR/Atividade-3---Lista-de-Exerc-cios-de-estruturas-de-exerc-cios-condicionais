@@ -1,0 +1,22 @@
+programa
+{
+	inclua biblioteca Matematica
+ --> m
+	
+inteiro a
+	inteiro b
+	inteiro c
+	inteiro delta
+	inteiro bhaskara1, bhaskara2
+	
+	funcao inicio()
+	{
+		escreva("me fale 3 numeros")
+		leia(a, b, c)
+		delta = m.potencia(b, 2) - 4 * a * c
+		bhaskara1 = (-b + m.raiz(delta, 2)) / 2 * a
+		bhaskara2 = (-b - m.raiz(delta, 2)) / 2 * a
+
+		escreva(bhaskara1, bhaskara2)
+	}
+}

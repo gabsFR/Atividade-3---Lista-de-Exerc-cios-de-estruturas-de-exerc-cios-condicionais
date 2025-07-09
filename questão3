@@ -1,0 +1,17 @@
+programa
+{
+	
+inteiro km
+	inteiro dias
+	inteiro precodia
+	inteiro payday
+	funcao inicio()
+	{
+		escreva("qnts kilometros vc ando e qnts dias vc ficou com ele? ")
+		leia(km, dias)
+		precodia = 60.00 * dias
+		payday = precodia + (km * 0.15) 
+
+		escreva(" tera q pagar ", payday, " reais no total")
+	}
+}

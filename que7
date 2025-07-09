@@ -1,0 +1,27 @@
+programa
+{
+	
+inteiro a,b,c
+	funcao inicio()
+	{
+		escreva(" vc ja sabe o processo: ")
+		leia(a,b,c)
+
+		se(a > b e a < c){
+			escreva(b, " - ", a, " - ", c)
+		}
+		se(a < b e a > c){
+			escreva(c, " - ", a, " - ", b)
+	}
+	     se(b > a e b < c){
+			escreva(a, " - ", b, " - ", c)
+     }
+          se(b < a e b > c){
+			escreva(c, " - ", b, " - ", a)
+	}
+	     se(c > b e c < a){
+			escreva(b, " - ", c, " - ", a)
+     }  
+          se(c < b e c > a){
+			escreva(a, " - ", c, " - ", b)
+}

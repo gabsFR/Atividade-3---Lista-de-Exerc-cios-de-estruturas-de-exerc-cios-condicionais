@@ -9,16 +9,28 @@ cadeia letra
 		leia(letra)
 
 		se(letra == "a" ou letra == "e" ou letra == "i" ou letra == "o" ou letra == "u"){
-			escreva("a letra ", letra, " é vogal")
+			escreva("a letra ", letra, " é vogal\n")
 		}senao{
-			escreva("a letra ", letra, " é consoante")
+			escreva("a letra ", letra, " é consoante\n")
 		}
 
-       escreva("agr me informe um ano")
+       escreva("agr me informe um ano ")
        leia (ano)
 
 		se((ano % 4) == 0){
+			se((ano % 100) == 0){
+				se((ano % 400) == 0){
+					escreva("o ano é bissexto")
+				}senao{
+					escreva("n é um ano bissexto")
+				}
+			}senao{
+				escreva("o ano é bissexto")
+			}
 			
 		}senao{
+			escreva("n é um ano bissexto")
+		}
+
 	}
 }

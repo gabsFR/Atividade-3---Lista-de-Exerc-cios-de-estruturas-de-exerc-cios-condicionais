@@ -1,0 +1,21 @@
+programa
+{
+	
+inteiro km = 0
+	inteiro multa
+	funcao inicio()
+	{
+           
+	     
+		para(inteiro i=0; km < 80; i++){
+			escreva("Qual sua velocidade atual? ")
+			 leia(km)
+
+            multa = (km - 80) * 7
+            
+             se(km > 80){
+             	escreva("voce recebeu uma multa de ", multa, " pila.")
+             }
+		}
+	}
+}

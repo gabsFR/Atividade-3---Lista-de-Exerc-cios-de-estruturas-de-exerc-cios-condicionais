@@ -1,0 +1,23 @@
+programa
+{
+	
+inteiro nota1, nota2
+	inteiro media
+	funcao inicio()
+	{
+		escreva("me fale suas notas: ")
+		 leia(nota1,nota2)
+		  media = (nota1 + nota2) / 2
+            
+		   se(media == 100){
+		   	escreva("Aprovado com distinção.")
+		   }
+		   senao se(media >= 70){
+		   	escreva("Aprovado")
+		   }
+		   senao{
+		   	escreva("Reprovado")
+		   }
+	}
+}
+

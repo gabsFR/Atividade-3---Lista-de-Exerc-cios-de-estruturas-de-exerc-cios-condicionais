@@ -1,0 +1,75 @@
+programa
+{
+	
+     inteiro lanche  
+	inteiro quant
+	real valor
+	funcao inicio()
+	{
+		escreva("*************************\n")
+		escreva("**      Bem vindos     **\n")
+		escreva("*      garibaldo bar    *\n")
+		escreva("*                       *\n")
+          escreva("* 1.Dogao         5.00  *\n")
+          escreva("* 2.Bauru         2.60  *\n")
+          escreva("* 3.Bauru/egg     3.60  *\n")
+          escreva("* 4.X-Ratão       9.00  *\n")
+          escreva("* 5.X-Diabete    11.00  *\n")
+          escreva("* 6.Cokinha       5.00  *\n")
+          escreva("* 7.TmodLoader 1000.00  *\n")
+          escreva("**0. sair              **\n")
+          escreva("*************************\n")
+
+            leia(lanche)
+          escolha(lanche){
+           caso 1: {
+             
+             escreva("Tu quer o Dogao. qnts?: \n")
+              leia(quant)
+              valor = quant * 5.00
+              pare
+              
+           }caso 2:{
+           	escreva("Tu quer o Bauru. qnts?: \n")
+              leia(quant)
+               valor = quant * 2.60
+              pare
+           
+           }caso 3:{
+           	escreva("Tu quer o Bauru com egg. qnts?: \n")
+              leia(quant)
+               valor = quant * 3.60
+              pare
+           
+           } caso 4:{
+           	escreva("Tu quer o X-Ratão. qnts?: \n")
+              leia(quant)
+               valor = quant * 9.00
+              pare
+          
+           }caso 5:{
+           	escreva("Tu quer o X-Diabete. qnts?: \n")
+              leia(quant)
+               valor = quant * 11.00
+              pare
+           
+           }caso 6:{
+           	escreva("Tu quer a cokinha gelada ice cold. qntas?: \n")
+              leia(quant)
+               valor = quant * 5.00
+              pare
+           
+           }caso 7:{
+           	escreva("Tu quer o Tmodloader. só um por pessoa\n")
+           	 valor = 1000.00
+              pare
+           
+           }caso 0:{
+           	escreva("teu valor final é ", valor, " reais, bye bye.")
+           
+           }
+			
+		}
+		escreva("teu valor total é ", valor, " reais, sybau.")
+	}
+}
